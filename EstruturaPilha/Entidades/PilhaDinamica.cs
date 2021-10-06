@@ -65,5 +65,15 @@ namespace EstruturaPilha.Entidades
         {
             return TamanhoAtual == 0;
         }
+
+        public IEnumerable<int> Esvaziar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void EmpilhaValorUnico(int k)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
